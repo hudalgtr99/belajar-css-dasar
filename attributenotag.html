@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute</title>
+
+    <style>
+        a[target="_blank"] {
+            color: red;
+        }
+        [title*="belajar"]{
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <a href="" target="_blank">Contoh 1</a>
+    <a href="">Contoh 1</a>
+    <a href="" target="_self">Contoh 1</a>
+    <a href="">Contoh 1</a>
+
+    
+    <p title="belajar">Ini dipilih</p>
+    <p title="belajar pemrograman">Ini dipilih</p>
+    <p title="belajarpemrograman">Ini dipilih</p>
+    <p title="belajar-pemrograman">Ini dipilih</p>
+    <p title="pemrograman belajar">Ini dipilih</p>
+    <span title="pemrogramanbelajar">Ini contoh span</span>
+    <div title="inibelajarpemrograman">Ini contoh div</div>
+</body>
+</html>
