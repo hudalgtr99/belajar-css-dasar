@@ -9,8 +9,8 @@
         a[target="_blank"] {
             color: red;
         }
-        p[title|="belajar"]{
-            color:blue;
+        p[title^="belajar"]{
+            color: blue;
         }
     </style>
 
@@ -23,8 +23,8 @@
 
     
     <p title="belajar">Ini dipilih</p>
-    <p title="belajar pemrograman">Ini tidak dipilih</p>
-    <p title="belajarpemrograman">Ini tidak dipilih</p>
+    <p title="belajar pemrograman">Ini dipilih</p>
+    <p title="belajarpemrograman">Ini dipilih</p>
     <p title="belajar-pemrograman">Ini dipilih</p>
     <p title="pemrograman belajar">Ini tidak dipilih</p>
 </body>
