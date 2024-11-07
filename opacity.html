@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+        div {
+            padding: 0px;
+            margin: 0px;
+            background-color: pink;
+        }
+        p {
+            padding: 0px;
+            margin: 0px;
+            text-align: justify;
+        }
+        .artikel1 {
+            height: 200px;
+            background-color: aqua;
+            width: 200px;
+
+            /* urutan padding . . . . up, right, bottom, left */
+            padding: 10px 20px 10px 20px;
+            margin: 10px 10px 10px 10px;
+
+            border-style: solid;
+            border-radius: 50px 0px;
+            border-width: 5px;
+
+            /* opacity range = 0 (transparan) ~ 1 Full */
+            opacity:0.5;
+        }
+        .artikel2 {
+            height: 150px;
+            width: 300px;
+            padding: 20px;
+
+            /* Nilai margin akan ditabrak dan mengambil nilai tertinggi */
+            margin: 10px 10px 10px 10px;
+
+            border-left-style: solid;
+            border-left-color: brown;
+            border-left-width: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="artikel1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo optio saepe cupiditate maxime odio animi nobis, accusamus eaque, modi officiis adipisci rerum expedita alias dicta natus. Explicabo sint eius aliquam.</p>
+    </div>
+    <div class="artikel2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam laudantium nam! Eveniet sint laudantium ducimus deserunt veniam et voluptatum. Nobis nisi velit dolorum porro! Quam dolorem consequuntur earum perspiciatis.</p>
+    </div>
+</body>
+</html>
+
+<!-- Sauce -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/opacity -->
