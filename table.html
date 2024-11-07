@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table, tr, th, td{
+            border-style: solid;
+            border-width: 2px;
+            margin: 0px;
+            padding: 0px;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 200px;
+            height: 200px;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: pink;
+        }
+
+        .ganjil {
+            background-color: greenyellow;
+        }
+        .genap {
+            background-color: aqua;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="ganjil">
+                <td>Miftah</td>
+                <td>100</td>
+            </tr>
+            <tr class="genap">
+                <td>Miftah</td>
+                <td>100</td>
+            </tr>
+            <tr class="ganjil">
+                <td>Miftah</td>
+                <td>100</td>
+            </tr>
+            <tr class="genap">
+                <td>Miftah</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <tr class="ganjil">
+                <td>Miftah  </td>
+                <td>100</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!-- Sauce -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/border  -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse  -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/height -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/width  -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode  -->
