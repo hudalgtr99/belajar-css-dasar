@@ -6,15 +6,22 @@
     <title>Layer</title>
 
     <style>
+        /* layer ini adalah urutan yg diprioritaskan. 
+        Disini tertulis urutannya b lebih prioritas daripada a */
+        @layer b,a;
         h2 {
             color: blue;
         }
         @layer a {
-            color: red;
+            h1 {
+                color: red;
+            }
         }
 
         @layer b {
-
+            h1 {
+                color: pink;
+            }
         }
     </style>
 </head>
